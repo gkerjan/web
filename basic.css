@@ -1,0 +1,12 @@
+.george {
+  width: 80px;
+  border-radius: 40px;
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transition: top var(--time), left var(--time);
+}
+
+body {
+  background-color: lightpink;
+}
