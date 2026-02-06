@@ -1,12 +1,27 @@
+/** George images */
 .george {
   width: 80px;
   border-radius: 40px;
   position: absolute;
   top: var(--y);
   left: var(--x);
-  transition: top var(--time), left var(--time);
+  cursor: none;
 }
 
+/** Reset button */
+.reset-button {
+  cursor: pointer;
+  background-color: purple;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  font-size: large;
+  position: relative;
+  z-index: 1;
+}
+
+/** General page */
 body {
   background-color: lightpink;
 }

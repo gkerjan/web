@@ -3,20 +3,29 @@
 
   <head>
 
+    <!-- Displayed on browser tab -->
     <title>
       NATHAN JE T'AIME
     </title>
 
+    <!-- Link css sheets -->
     <link rel="stylesheet" href="basic.css">
-
-    <script type="text/javascript" src="mouse_position.js"></script>
 
   </head>
 
   <body>
 
-    <img class="george" src="george.png">
-    
+    <!-- George image to be replicated -->
+    <img class="george" id="george0" src="george.png">
+
+    <!-- Reset button to delete all george clones -->
+    <button class="reset-button" id="reset">
+      Reset
+    </button>
+
+    <!-- Link js scripts (at the end to let other elements load first) -->
+    <script type="text/javascript" src="mouse_position.js"></script>
+
   </body>
 
 </html>
