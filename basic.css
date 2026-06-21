@@ -10,14 +10,18 @@
 
 /** Reset button */
 .reset-button {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
   cursor: pointer;
   background-color: purple;
   border: none;
   color: white;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  padding: 10px 30px 10px 30px;
+  padding: 20px 30px 20px 30px;
   font-size: large;
-  position: relative;
   z-index: 1;
 }
 
