@@ -13,8 +13,13 @@ function handle_mouse_move(x, y) {
   var reset = document.querySelector('#reset');
 
   if (!reset.matches(':hover')) {
+    // Not hovering, make george visible and follow the button
     document.documentElement.style.setProperty('--x', (x - 40) + 'px');
     document.documentElement.style.setProperty('--y', (y - 40) + 'px');
+    document.getElementById('george0').style.visibility = "visible";
+  } else {
+    // Hovering, make george invisible
+    document.getElementById('george0').style.visibility = "hidden";
   }
 }
 
